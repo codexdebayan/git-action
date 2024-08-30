@@ -36,7 +36,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest --maxfail=5 --disable-warnings
+        python -m pytest
 
     - name: Send notification on failure
       if: failure()
