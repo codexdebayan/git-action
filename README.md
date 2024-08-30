@@ -22,12 +22,3 @@ This repository is equipped with a Continuous Integration (CI) pipeline powered 
 2. Make your changes.
 3. Submit a pull request.
 4. Ensure all tests pass before merging.
-
-### Challenges and Improvements
-
-- **Challenges:**
-  - Configuring caching for dependencies was initially challenging due to key management.
-  - Setting up proper notifications for build failures required integrating with third-party services.
-
-- **Improvements:**
-  - Future improvements could include adding more detailed notifications (e.g., via Slack) and extending the pipeline to include code linting and coverage reports.
